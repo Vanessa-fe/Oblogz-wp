@@ -1,0 +1,139 @@
+#welcome {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+  padding: 3em 2em 1em;
+}
+#home-page #welcome {
+  background: url('../images/nicole.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#logo {
+  background: url(../images/onews.svg) no-repeat;
+  background-size: 35px;
+  background-position: 0 4px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100px;
+  padding-left: 50px;
+  font-size: 1.8em;
+  line-height: 1em;
+}
+#logo a {
+  color: white;
+  text-decoration: none;
+}
+#welcome-message {
+  text-align: right;
+  align-self: flex-end;
+  display: block;
+  color: white;
+  padding: 1em 4% 1em 16%;
+  background-color: rgba(155, 155, 155, .3);
+  text-shadow: 0 0 4px #333;
+}
+#welcome-message h1 span {
+  font-size: 0.5em;
+  font-weight: 400;
+  font-style: italic;
+}
+#menu {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+  text-shadow: 0 0 4px #333;
+}
+#menu a {
+  color: white;
+  margin-left: 2em;
+}
+
+#content {
+  margin-left: 50%;
+  overflow-y: auto;
+  width: 50%;
+}
+#content-header {
+  border-bottom: 1px solid #eaeaea;
+  padding: 1em 2em;
+  background-color: #f9f9f9;
+}
+
+#posts {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 50%;
+  border-bottom: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  padding: 2em;
+}
+.meta {
+  font-size: 0.8em;
+  margin: 1em 0;
+}
+.meta-icon {
+  width: 2em;
+  margin-right: 10px;
+}
+
+.meta-date {
+  color: #999;
+}
+.post-title {
+  margin: 1em 0;
+}
+
+.post .post-read {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.post-work .badge{
+  background-color: #0766F0;
+}
+
+.post-news .badge{
+  background-color: #98DC62;
+}
+.post-team .badge{
+  background-color: #DC5E53;
+}
+
+.badge:hover{
+  color: #999;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid #999;
+}
+.badge {
+  text-transform: uppercase;
+  padding: 0.3em 0.5em;
+  border-radius: 3px;
+  background-color: #999;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em
+}
+
+.article__thumbnail img {
+  width:100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  display:block;
+
+}
